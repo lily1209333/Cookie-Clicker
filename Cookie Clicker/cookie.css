@@ -1,0 +1,76 @@
+/* dark: #205c6c
+   light: #9ed9e4 */
+
+body {
+    font-family: 'Farro', sans-serif;
+    text-align: center;
+}
+
+#store {
+    width: 50%;
+    height: 593px;
+    float: right;
+    background-color: #205c6c;
+}
+
+#store h2{
+    color: #9ed9e4;
+}
+
+#head {
+    width: 50%;
+    height: 593px;
+    float: left;
+    background-color: #9ed9e4;
+}
+
+#head h2 {
+    color: #205c6c;
+}
+
+button.batch {
+    font-family: 'Farro', sans-serif;
+    color: #9ed9e4;
+    padding: 10px 40px;
+    background-color: #205c6c;
+    outline: none;
+    transition: .4s ease;
+    border: none;
+}
+
+button.batch:hover {
+    color: #205c6c;
+    background-color: #9ed9e4;
+    padding: 10px 60px;
+}
+
+#cookie {
+    font-family: 'Farro', sans-serif;
+    border-radius: 50%;
+    background-color: saddlebrown;
+    color: white;
+    padding: 175px 135px;
+    border: none;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+#cookie:hover {
+    padding: 185px 145px;
+}
+
+#clear {
+    font-family: 'Farro', sans-serif;
+    color: #205c6c;
+    padding: 10px 40px;
+    background-color: #9ed9e4;
+    outline: none;
+    transition: .4s ease;
+    border: none;
+}
+
+#clear:hover {
+    color: #9ed9e4;
+    padding: 10px 60px;
+    background-color: #205c6c;
+}
